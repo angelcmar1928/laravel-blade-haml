@@ -36,7 +36,7 @@ class HamlCompiler extends BladeCompiler implements CompilerInterface {
 	 * @param  string  $path
 	 * @return void
 	 */
-	public function compile($path) {
+	public function compile($path=NULL) {
 
         $this->footer = array();
 
